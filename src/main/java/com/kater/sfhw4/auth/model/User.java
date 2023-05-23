@@ -1,4 +1,4 @@
-package com.kater.sfhw4.model;
+package com.kater.sfhw4.auth.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

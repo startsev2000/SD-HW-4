@@ -1,4 +1,4 @@
-package com.kater.sfhw4.dto;
+package com.kater.sfhw4.auth.dto;
 
 import lombok.Getter;
 import lombok.Setter;

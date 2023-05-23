@@ -1,4 +1,4 @@
-package com.kater.sfhw4.config;
+package com.kater.sfhw4.common.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

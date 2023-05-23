@@ -1,6 +1,6 @@
-package com.kater.sfhw4.repository;
+package com.kater.sfhw4.auth.repository;
 
-import com.kater.sfhw4.model.User;
+import com.kater.sfhw4.auth.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

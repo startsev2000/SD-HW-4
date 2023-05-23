@@ -1,11 +1,11 @@
-package com.kater.sfhw4.service;
+package com.kater.sfhw4.auth.service;
 
-import com.kater.sfhw4.dto.UserLoginDto;
-import com.kater.sfhw4.dto.UserRegistrationDto;
-import com.kater.sfhw4.model.Session;
-import com.kater.sfhw4.model.User;
-import com.kater.sfhw4.repository.SessionRepository;
-import com.kater.sfhw4.repository.UserRepository;
+import com.kater.sfhw4.auth.dto.UserLoginDto;
+import com.kater.sfhw4.auth.dto.UserRegistrationDto;
+import com.kater.sfhw4.auth.model.Session;
+import com.kater.sfhw4.auth.model.User;
+import com.kater.sfhw4.auth.repository.SessionRepository;
+import com.kater.sfhw4.auth.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

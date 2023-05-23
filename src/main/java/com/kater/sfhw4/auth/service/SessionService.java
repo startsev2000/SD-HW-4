@@ -1,7 +1,7 @@
-package com.kater.sfhw4.service;
+package com.kater.sfhw4.auth.service;
 
-import com.kater.sfhw4.model.Session;
-import com.kater.sfhw4.repository.SessionRepository;
+import com.kater.sfhw4.auth.model.Session;
+import com.kater.sfhw4.auth.repository.SessionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

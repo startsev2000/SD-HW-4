@@ -1,11 +1,11 @@
-package com.kater.sfhw4.controller;// AuthController.java
+package com.kater.sfhw4.auth.controller;// AuthController.java
 
-import com.kater.sfhw4.dto.UserLoginDto;
-import com.kater.sfhw4.dto.UserRegistrationDto;
-import com.kater.sfhw4.model.Session;
-import com.kater.sfhw4.model.User;
-import com.kater.sfhw4.service.SessionService;
-import com.kater.sfhw4.service.UserService;
+import com.kater.sfhw4.auth.dto.UserLoginDto;
+import com.kater.sfhw4.auth.model.Session;
+import com.kater.sfhw4.auth.service.SessionService;
+import com.kater.sfhw4.auth.service.UserService;
+import com.kater.sfhw4.auth.dto.UserRegistrationDto;
+import com.kater.sfhw4.auth.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

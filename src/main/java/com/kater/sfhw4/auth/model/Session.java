@@ -1,8 +1,7 @@
-package com.kater.sfhw4.model;
+package com.kater.sfhw4.auth.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
-import com.kater.sfhw4.model.User;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
